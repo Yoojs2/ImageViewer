@@ -56,7 +56,10 @@
     [self.imageViewer setImageScaling:NSImageScaleAxesIndependently];
 }
 
-
+- (void) TestFunc
+{
+    NSLog("@123");
+}
 
 - (IBAction)onBtnGrayScale:(id)sender {
     
