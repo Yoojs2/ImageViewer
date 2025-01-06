@@ -690,11 +690,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="766" height="574"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x4X-xR-HO4">
-                        <rect key="frame" x="46" y="55" width="675" height="446"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="H9n-Ej-d41"/>
-                    </imageView>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ibh-fI-XjV">
                         <rect key="frame" x="17" y="538" width="67" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -728,6 +723,11 @@
                             <action selector="btnZoomOut:" target="Voe-Tx-rLC" id="UsJ-mg-a7t"/>
                         </connections>
                     </button>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x4X-xR-HO4">
+                        <rect key="frame" x="49" y="84" width="668" height="430"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="H9n-Ej-d41"/>
+                    </imageView>
                 </subviews>
             </view>
             <connections>
