@@ -12,6 +12,13 @@
 - (IBAction)onBtnImageOpen:(id)sender;
 - (IBAction)btnZoomIn:(id)sender;
 - (IBAction)btnZoomOut:(id)sender;
+- (IBAction)onBtnImageRotateCW:(id)sender;
+- (IBAction)onBtnImageRotateCCW:(id)sender;
+- (IBAction)onBtnGrayScale:(id)sender;
+
+
+
+
 
 
 @end
